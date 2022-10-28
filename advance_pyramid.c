@@ -10,7 +10,8 @@ int main()
 
     for (i = 1; i <= n; i++)
     {
-        for (j = 0; j <= (n * 2); j++)
+        k = 1;
+        for (j = 1; j <= (n * 2); j++)
         {
             if (i > 1)
             {
